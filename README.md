@@ -8,3 +8,9 @@ Hedef: Serbest düşüşe bırakılan cismin t saniyede alacağı mesafeyi bulma
 - Çıktı: x (metre)
 
 g = 9.80665 (m/s^2) alabilirsiniz.
+
+-------
+DevC++ kullananlar için Tools/Compiler Options.../General/Add the following commands when calling the linker: kısmına şunu yapıştırıp uyarı mesajları ve C++11'i aktifleştirebilirsiniz:
+
+
+    -static-libgcc -Wall -Wextra -Wpedantic -O2 -std=c++11
